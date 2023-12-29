@@ -1,0 +1,533 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  width: 100vw;
+  height: 16vh;
+  background-color: #e3effb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigation {
+  width: 95%;
+  height: 100%;
+  display: flex;
+}
+
+.nav-1 {
+  flex: 0.3;
+  background-image: url(./asset/organic.png);
+  background-size: cover;
+  background-position: center;
+}
+.nav-2 {
+  flex: 0.4;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  gap: 11%;
+}
+.nav-2 > a {
+  text-decoration: none;
+  color: orange;
+}
+.nav-3 {
+  flex: 0.3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10%;
+  font-size: 20px;
+}
+.nav-3 > h3 {
+  color: orange;
+}
+.main {
+  width: 100vw;
+  height: 84vh;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #e3effb;
+  display: flex;
+}
+.container > div {
+  flex: 1;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.insider {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 18px;
+}
+.insider a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #61a734;
+  padding: 5px 20px;
+}
+.heading {
+  width: 100%;
+  height: 30%;
+  margin-right: 250px;
+}
+
+.heading > h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  font-style: italic;
+  color: orangered;
+}
+.heading > h1::after {
+  display: flex;
+  flex-direction: column;
+  content: "Fresh Foods";
+  font-size: 15px;
+  color: #61a734;
+}
+.container div:nth-child(2) {
+  background-image: url(./asset/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.describe {
+  width: 100vw;
+  height: 150vh;
+  background-color: #61a734;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0;
+  gap: 20px;
+}
+.describe div {
+  flex: 1;
+}
+.topic {
+  width: 85%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+
+  font-weight: bolder;
+}
+.topic h1 {
+  font-size: 45px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+topic > p {
+  line-height: 45px;
+}
+.topic-2 {
+  width: 95%;
+  height: 100%;
+
+  display: flex;
+  gap: 20px;
+}
+.topic-2 > div {
+  flex: 1;
+
+  padding: 0 10px;
+}
+.topic-2 div:nth-child(1) {
+  background-image: url(./asset/sheep.jpg);
+  background-size: cover;
+}
+.topic-2 div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+}
+.topic-2 div:nth-child(3) {
+  background-image: url(./asset/straberry.jpg);
+  background-size: cover;
+}
+.topic-3 {
+  width: 95%;
+  height: 100%;
+
+  display: flex;
+  gap: 20px;
+}
+.topic-3 div {
+  flex: 1;
+
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 10px;
+  gap: 10px;
+}
+.topic-3 div:nth-child(2) {
+  background-image: url(./asset/fruit.jpg);
+  background-size: cover;
+}
+.description {
+  width: 100vw;
+  height: 90vh;
+
+  display: flex;
+  justify-content: center;
+}
+.boxing {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+}
+.boxing > div {
+  flex: 1;
+}
+.boxing div:nth-child(1) > img {
+  width: 100%;
+  height: 100%;
+}
+.boxing div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+  padding: 0 30px;
+}
+.sec > h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: orangered;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+}
+.sec > a {
+  background-color: orangered;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+.sec h1::before {
+  content: "Organic Food";
+  text-transform: uppercase;
+  font-size: 19px;
+  color: #61a734;
+  margin-right: 130px;
+}
+.asset {
+  width: 100vw;
+  height: 60vh;
+
+  background-color: #61a734;
+  display: flex;
+  justify-content: center;
+}
+.asset-1 {
+  width: 95%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+.asset-1 div {
+  flex: 1;
+}
+.asset-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  color: #fff;
+  font-weight: bolder;
+  padding: 10px;
+}
+.asset-3 > h1 {
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.asset-2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.asset-2 > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 15px;
+  background-color: #fff;
+  gap: 10px;
+}
+.asset-2 > div > h2 {
+  color: #61a734;
+  text-transform: uppercase;
+}
+.sumit {
+  width: 100vw;
+  height: 35vh;
+
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+.sagar {
+  width: 95%;
+  height: 100%;
+
+  background-color: #f2f2f2;
+  display: flex;
+  gap: 20px;
+}
+.sagar > div {
+  flex: 1;
+}
+.sagar div:nth-child(1) {
+  background-image: url(./asset/tomato.jpg);
+  background-size: cover;
+}
+.sagar div:nth-child(2) {
+  background-image: url(./asset/seed.jpg);
+  background-size: cover;
+}
+.sagar div:nth-child(3) {
+  background-image: url(./asset/hands.jpg);
+  background-size: cover;
+}
+.sagar div:nth-child(4) {
+  background-image: url(./asset/orange.jpg);
+  background-size: cover;
+}
+.cow {
+  width: 100vw;
+  height: 90vh;
+
+  display: flex;
+  margin-top: 30px;
+}
+.cow > div {
+  flex: 1;
+}
+.cow > div:nth-child(1) {
+  background-image: url(./asset/cow.jpg);
+  background-size: cover;
+}
+.baby {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+  padding: 0 30px;
+}
+.baby > h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: orangered;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+}
+.baby h1::before {
+  content: "Happy Farming";
+  text-transform: uppercase;
+  font-size: 19px;
+  color: #61a734;
+  margin-right: 210px;
+}
+.baby > a {
+  background-color: orangered;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+.radius {
+  width: 100vw;
+  height: 90vh;
+
+  background-color: #e3effb;
+  display: flex;
+  justify-content: center;
+}
+.introduce {
+  width: 95%;
+  height: 100%;
+
+  display: flex;
+}
+.introduce > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.dibba {
+  width: 80%;
+  height: 90%;
+
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.imago {
+  flex: 0.4;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.imago > img {
+  width: 60%;
+  height: 100%;
+  border-radius: 50%;
+}
+.heado {
+  flex: 0.1;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.heado > h2 {
+  font-size: 25px;
+}
+.para {
+  flex: 0.4;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 5px;
+  line-height: 30px;
+}
+.link {
+  flex: 0.1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  align-items: center;
+}
+.link > a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.nibba {
+  width: 80%;
+  height: 90%;
+
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.sibba {
+  width: 80%;
+  height: 90%;
+
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.bow {
+  width: 100vw;
+  height: 90vh;
+
+  display: flex;
+  margin-top: 30px;
+}
+.bow > div {
+  flex: 1;
+}
+.bow > div:nth-child(2) {
+  background-image: url(./asset/tomatoes.jpg);
+  background-size: cover;
+}
+.saby {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+  padding: 0 30px;
+}
+.saby > h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: orangered;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+}
+.saby h1::before {
+  content: "Organic farm";
+  text-transform: uppercase;
+  font-size: 19px;
+  color: #61a734;
+  margin-right: 230px;
+}
+.saby > a {
+  background-color: orangered;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+.finished {
+  width: 100vw;
+  height: 15vh;
+
+  background-color: #d1dce2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: black;
+}
+.finished > p > span {
+  color: orangered;
+}
